@@ -2,10 +2,10 @@
 const header = document.querySelector('header');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
-        header.style.background = 'rgba(28, 16, 8, 0.97)';
+        header.style.background = 'rgba(26, 12, 6, 0.98)';
         header.style.padding = '1rem 2rem';
     } else {
-        header.style.background = 'linear-gradient(to bottom, rgba(28, 16, 8, 0.95), transparent)';
+        header.style.background = 'linear-gradient(to bottom, rgba(26, 12, 6, 0.97), transparent)';
         header.style.padding = '2rem';
     }
 });
